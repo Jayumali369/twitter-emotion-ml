@@ -1,5 +1,23 @@
 # Twitter Emotion Classification using Machine Learning
 
+#Project Structure
+
+twitter_emotion_project/
+│
+├── data/
+│   └── dataset.csv
+│
+├── src/
+│   ├── preprocess.py
+│   ├── train_model.py
+│   └── predict.py
+│
+├── patterns/
+│   └── model_factory.py
+│
+├── main.py
+└── README.md
+
 This project analyzes Twitter comments and classifies emotions using Machine Learning.
 
 ## Emotions Detected
